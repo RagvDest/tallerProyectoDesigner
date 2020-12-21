@@ -1,0 +1,16 @@
+{
+	"MMPPW": {
+		"LBL": {
+			"LBL_MMPPW_APELLIDOO_92317": "Apellido",
+			"LBL_MMPPW_CDULAYTRC_39387": "C\u00e9dula",
+			"LBL_MMPPW_GUARDARUC_40328": "Guardar",
+			"LBL_MMPPW_NACIONALA_73495": "Nacionalidad",
+			"LBL_MMPPW_NOMBRELTG_33788": "Nombre",
+			"LBL_MMPPW_SEXOWHEYB_52012": "Sexo",
+			"LBL_MMPPW_TELFONOJG_43361": "Tel\u00e9fono"
+		},
+		"MSG": {
+			"MSG_MMPPW_INGRESAOF_80253": "Ingresar un telefono v\u00e1lido"
+		}
+	}
+}

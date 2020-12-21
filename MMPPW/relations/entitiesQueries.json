@@ -1,0 +1,16 @@
+{
+	"EN_CLIENTEFM_648": {
+		"queries": {
+			"Q_CLIEENEN_HW23": {
+				"$ref": "../SSMMD/queries/Q_CLIEENEN_HW23.json#"
+			}
+		}
+	},
+	"EN_PERSONAII_765": {
+		"queries": {
+			"Q_PERSOONN_SC54": {
+				"$ref": "../SSMMD/queries/Q_PERSOONN_SC54.json#"
+			}
+		}
+	}
+}

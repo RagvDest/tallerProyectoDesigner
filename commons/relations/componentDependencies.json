@@ -1,0 +1,151 @@
+{
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_CLIENTEFM_648": {
+			"labels": [
+			]
+		},
+		"EN_PERSONAII_765": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_MMPPWCJIQQLRD_356": {
+			"blis": [
+				"BLI3652_bli_consultarpersona"
+			],
+			"entities": {
+				"EN_PERSONAII_765": [
+					"AT22_APELLIDO765",
+					"AT52_TELEFONO765",
+					"AT82_NOMBREWP765"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_PERSOONN_SC54": [
+					"QM_PERSONNNCS544_04",
+					"QM_PERSONOO5N123_01",
+					"QM_PERSOSSNO5570_02"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_MMPPWHYPMBRLW_165": {
+			"blis": [
+				"BLI7680_bli_consultarcliente"
+			],
+			"entities": {
+				"EN_CLIENTEFM_648": [
+					"AT16_APELLIDD648",
+					"AT61_NACIONAI648",
+					"AT65_TELEFONO648",
+					"AT68_CEDULAFG648",
+					"AT88_NOMBRESK648"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_CLIEENEN_HW23": [
+					"QM_CLIEE23N3H700_05",
+					"QM_CLIEEENNN2377_06",
+					"QM_CLIEEH323N735_01",
+					"QM_CLIEEHHWNE398_02",
+					"QM_CLIEENENWN957_03"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_MMPPWLRLHXLBH_518": {
+			"blis": [
+				"BLI4066_bli_insertarcliente"
+			],
+			"entities": {
+				"EN_CLIENTEFM_648": [
+					"AT16_APELLIDD648",
+					"AT61_NACIONAI648",
+					"AT65_TELEFONO648",
+					"AT68_CEDULAFG648",
+					"AT88_NOMBRESK648"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMPPW_APELLIDOO_92317",
+				"LBL_MMPPW_CDULAYTRC_39387",
+				"LBL_MMPPW_GUARDARUC_40328",
+				"LBL_MMPPW_NACIONALA_73495",
+				"LBL_MMPPW_NOMBRELTG_33788",
+				"LBL_MMPPW_TELFONOJG_43361"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_MMPPWMXQPFYBM_792": {
+			"blis": [
+				"BLI4903_bli_registropersona"
+			],
+			"entities": {
+				"EN_PERSONAII_765": [
+					"AT22_APELLIDO765",
+					"AT52_TELEFONO765",
+					"AT82_NOMBREWP765",
+					"AT89_SEXOFWLB765"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMPPW_APELLIDOO_92317",
+				"LBL_MMPPW_GUARDARUC_40328",
+				"LBL_MMPPW_NOMBRELTG_33788",
+				"LBL_MMPPW_SEXOWHEYB_52012",
+				"LBL_MMPPW_TELFONOJG_43361",
+				"MSG_MMPPW_INGRESAOF_80253"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_CLIEENEN_HW23": {
+			"labels": [
+			]
+		},
+		"Q_PERSOONN_SC54": {
+			"labels": [
+			]
+		}
+	}
+}

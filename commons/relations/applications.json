@@ -1,0 +1,64 @@
+{
+	"APP_TALLERJJTPM_634": {
+		"externalModules": {
+		},
+		"forms": {
+			"MMPPW": [
+				{
+					"generated": 4,
+					"moduleId": "MMPPW",
+					"moduleName": "Main",
+					"name": "FormPersonaConsulta",
+					"subModuleId": "SSMMD",
+					"subModuleName": "Main",
+					"taskId": "T_MMPPWCJIQQLRD_356",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMPPW",
+					"moduleName": "Main",
+					"name": "FormClienteConsulta",
+					"subModuleId": "SSMMD",
+					"subModuleName": "Main",
+					"taskId": "T_MMPPWHYPMBRLW_165",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMPPW",
+					"moduleName": "Main",
+					"name": "Insertar Cliente",
+					"subModuleId": "SSMMD",
+					"subModuleName": "Main",
+					"taskId": "T_MMPPWLRLHXLBH_518",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMPPW",
+					"moduleName": "Main",
+					"name": "Registro Persona",
+					"subModuleId": "SSMMD",
+					"subModuleName": "Main",
+					"taskId": "T_MMPPWMXQPFYBM_792",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Taller",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_TALLERJJTPM_634",
+		"mainPortletTaskId": "T_MMPPWMXQPFYBM_792",
+		"modules": [
+			"MMPPW"
+		],
+		"name": "Taller"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"Entities": {
+		"EN_CLIENTEFM_648": {
+			"name": "Cliente"
+		},
+		"EN_PERSONAII_765": {
+			"name": "Persona"
+		}
+	},
+	"SSMMD": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMPPWCJIQQLRD_356": {
+				"name": "FormPersonaConsulta"
+			},
+			"T_MMPPWHYPMBRLW_165": {
+				"name": "FormClienteConsulta"
+			},
+			"T_MMPPWLRLHXLBH_518": {
+				"name": "Insertar Cliente"
+			},
+			"T_MMPPWMXQPFYBM_792": {
+				"name": "Registro Persona"
+			}
+		},
+		"Queries": {
+			"Q_CLIEENEN_HW23": {
+				"name": "ClienteQuery"
+			},
+			"Q_PERSOONN_SC54": {
+				"name": "PersonaQuery"
+			}
+		},
+		"SubForms": {
+		}
+	}
+}

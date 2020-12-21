@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTEFM_648",
+			"isContextEntity": null,
+			"moduleId": "MMPPW",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

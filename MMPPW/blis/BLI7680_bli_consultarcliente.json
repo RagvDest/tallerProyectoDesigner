@@ -1,0 +1,110 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25160"
+		}
+	],
+	"name": "BLI_consultarCliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI7680_bli_consultarcliente",
+	"patternName": "BLI_consultarCliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "7fac8b93-3db0-40f8-8b36-8ef4eb963600",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT \"id\"=cl_id,\r\n              \"nombre\"=cl_nombre,\r\n              \"apellido\"=cl_apellido,\r\n              \"telefono\"=cl_telefono,\r\n              \"nacionalidad\"=cl_nacionalidad\r\n              FROM"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "7fac8b93-3db0-40f8-8b36-8ef4eb963600",
+			"columns": [
+				{
+					"attributeId": "AT85_IDCLIETE648",
+					"entityId": "EN_CLIENTEFM_648",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT88_NOMBRESK648",
+					"entityId": "EN_CLIENTEFM_648",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT16_APELLIDD648",
+					"entityId": "EN_CLIENTEFM_648",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT65_TELEFONO648",
+					"entityId": "EN_CLIENTEFM_648",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT61_NACIONAI648",
+					"entityId": "EN_CLIENTEFM_648",
+					"format": "",
+					"name": "nacionalidad",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEFM_648",
+			"module": {
+				"moduleId": "MMPPW",
+				"moduleName": "Main"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
