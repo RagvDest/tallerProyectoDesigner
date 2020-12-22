@@ -30,6 +30,7 @@
 	],
 	"customizationLayer": 0,
 	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
 	"id": {
 		"queryId": "Q_PERSOONN_SC54",
 		"version": "1.0.0"
@@ -47,6 +48,66 @@
 	},
 	"queryMembers": [
 		{
+			"alias": "nombreConyugue",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT64_NOMBREGU765"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PERSOCCCOO821_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "estadoCivil",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT28_ESTADOII765"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PERSOCS5OS878_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellidoConyugue",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT52_APELLICE765"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PERSOCSS4N297_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
 			"alias": "nombre",
 			"attribute": {
 				"$ref": "../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT82_NOMBREWP765"
@@ -56,7 +117,6 @@
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
-			"label": null,
 			"operator": null,
 			"order": 4,
 			"orderBy": null,
@@ -77,12 +137,31 @@
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
-			"label": null,
 			"operator": null,
 			"order": 1,
 			"orderBy": null,
 			"orderByDirection": null,
 			"queryMemberId": "QM_PERSONOO5N123_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "sexo",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT89_SEXOFWLB765"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PERSONS4NC543_04",
 			"select": true,
 			"selectStr": "T",
 			"where": false,
@@ -98,7 +177,6 @@
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
-			"label": null,
 			"operator": null,
 			"order": 3,
 			"orderBy": null,
@@ -119,7 +197,6 @@
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
-			"label": null,
 			"operator": null,
 			"order": 2,
 			"orderBy": null,

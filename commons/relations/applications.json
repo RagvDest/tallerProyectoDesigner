@@ -5,7 +5,7 @@
 		"forms": {
 			"MMPPW": [
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "MMPPW",
 					"moduleName": "Main",
 					"name": "FormPersonaConsulta",
@@ -15,7 +15,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "MMPPW",
 					"moduleName": "Main",
 					"name": "FormClienteConsulta",
@@ -25,7 +25,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "MMPPW",
 					"moduleName": "Main",
 					"name": "Insertar Cliente",
@@ -35,7 +35,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "MMPPW",
 					"moduleName": "Main",
 					"name": "Registro Persona",

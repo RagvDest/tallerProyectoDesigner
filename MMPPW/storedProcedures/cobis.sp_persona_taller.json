@@ -94,6 +94,21 @@
 				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_sexo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado_civil"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre_conyugue"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido_conyugue"
 			}
 		],
 		"queries": [

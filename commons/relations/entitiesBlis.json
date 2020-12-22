@@ -3,6 +3,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_PERSONAII_765",
+						"moduleId": "MMPPW",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI2939_bli_actualizarpersona",
+			"nameBli": "BLI_actualizarPersona"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 				],
 				"outputEntity": [
 				],

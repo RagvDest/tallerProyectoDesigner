@@ -76,13 +76,14 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create"
+								"Create",
+								"Update"
 							],
 							"allowPaging": true,
 							"allowPagingStr": "T",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": null,
+							"autoSync": false,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -93,10 +94,10 @@
 							"customUrlDialog": null,
 							"deleteCommandEnabled": false,
 							"deleteCommandEnabledStr": "F",
-							"dialogTitleLabelId": null,
-							"editCommandEnabled": false,
-							"editCommandEnabledStr": "F",
-							"editMode": "0",
+							"dialogTitleLabelId": "LBL_MMPPW_REGISTRNC_78913",
+							"editCommandEnabled": true,
+							"editCommandEnabledStr": "T",
+							"editMode": "3",
 							"entityName": {
 								"$ref": "../../../../MMPPW/entities/EN_CLIENTEFM_648.json#/name"
 							},
@@ -113,9 +114,9 @@
 							"insertCommandEnabled": true,
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
-							"modalSize": null,
+							"modalSize": "lg",
 							"modeSelection": "None",
-							"moduleIdDialog": null,
+							"moduleIdDialog": "MMPPW",
 							"multiSelectEnabledStr": "F",
 							"name": "QV_WI23_RVV59",
 							"options": 0,
@@ -131,10 +132,10 @@
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
-							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
-							"taskVersionDialog": null,
-							"typeFormDialog": null,
+							"subModuleIdDialog": "SSMMD",
+							"taskIdDialog": "T_MMPPWLRLHXLBH_518",
+							"taskVersionDialog": "1.0.0",
+							"typeFormDialog": "forms",
 							"userControl": {
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -143,7 +144,7 @@
 								"type": "I",
 								"userControlId": "Grid"
 							},
-							"viewContainerIdDialog": null
+							"viewContainerIdDialog": "VC_INSERTARNC_601518"
 						},
 						"queryViewId": "QV_WI23_RVV59",
 						"responsiveLayouts": null,

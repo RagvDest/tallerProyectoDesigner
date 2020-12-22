@@ -76,13 +76,14 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create"
+								"Create",
+								"Update"
 							],
 							"allowPaging": true,
 							"allowPagingStr": "T",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": null,
+							"autoSync": false,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -93,10 +94,10 @@
 							"customUrlDialog": null,
 							"deleteCommandEnabled": false,
 							"deleteCommandEnabledStr": "F",
-							"dialogTitleLabelId": null,
-							"editCommandEnabled": false,
-							"editCommandEnabledStr": "F",
-							"editMode": "0",
+							"dialogTitleLabelId": "LBL_MMPPW_REGISTRAE_39472",
+							"editCommandEnabled": true,
+							"editCommandEnabledStr": "T",
+							"editMode": "3",
 							"entityName": {
 								"$ref": "../../../../MMPPW/entities/EN_PERSONAII_765.json#/name"
 							},
@@ -104,16 +105,20 @@
 							"hasDetailString": "F",
 							"height": null,
 							"includeQueryMembers": [
+								"AT64_NOMBREGU765",
+								"AT28_ESTADOII765",
+								"AT52_APELLICE765",
+								"AT82_NOMBREWP765",
 								"AT22_APELLIDO765",
-								"AT52_TELEFONO765",
-								"AT82_NOMBREWP765"
+								"AT89_SEXOFWLB765",
+								"AT52_TELEFONO765"
 							],
 							"insertCommandEnabled": true,
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
-							"modalSize": null,
+							"modalSize": "lg",
 							"modeSelection": "None",
-							"moduleIdDialog": null,
+							"moduleIdDialog": "MMPPW",
 							"multiSelectEnabledStr": "F",
 							"name": "QV_XR54_ORO20",
 							"options": 0,
@@ -129,10 +134,10 @@
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
-							"subModuleIdDialog": null,
-							"taskIdDialog": null,
-							"taskVersionDialog": null,
-							"typeFormDialog": null,
+							"subModuleIdDialog": "SSMMD",
+							"taskIdDialog": "T_MMPPWMXQPFYBM_792",
+							"taskVersionDialog": "1.0.0",
+							"typeFormDialog": "forms",
 							"userControl": {
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -141,7 +146,7 @@
 								"type": "I",
 								"userControlId": "Grid"
 							},
-							"viewContainerIdDialog": null
+							"viewContainerIdDialog": "VC_REGISTROGS_237792"
 						},
 						"queryViewId": "QV_XR54_ORO20",
 						"responsiveLayouts": null,
@@ -167,6 +172,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/LBL/LBL_MMPPW_APELLIDOO_92317"
+									},
+									"labelId": "LBL_MMPPW_APELLIDOO_92317",
+									"moduleId": "MMPPW"
+								},
 								"maxRecords": null,
 								"name": "apellido",
 								"options": 0,
@@ -227,6 +239,50 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
+									"$ref": "../../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT28_ESTADOII765"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/LBL/LBL_MMPPW_ESTADOCII_86328"
+									},
+									"labelId": "LBL_MMPPW_ESTADOCII_86328",
+									"moduleId": "MMPPW"
+								},
+								"maxRecords": null,
+								"name": "estadoCivil",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXKDT_322250",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
 									"$ref": "../../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT52_TELEFONO765"
 								},
 								"attributeValidations": [
@@ -241,6 +297,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/LBL/LBL_MMPPW_TELFONOJG_43361"
+									},
+									"labelId": "LBL_MMPPW_TELFONOJG_43361",
+									"moduleId": "MMPPW"
+								},
 								"maxRecords": null,
 								"name": "telefono",
 								"options": 0,
@@ -264,6 +327,138 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
+									"$ref": "../../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT89_SEXOFWLB765"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/LBL/LBL_MMPPW_SEXOWHEYB_52012"
+									},
+									"labelId": "LBL_MMPPW_SEXOWHEYB_52012",
+									"moduleId": "MMPPW"
+								},
+								"maxRecords": null,
+								"name": "sexo",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXPSZ_933250",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT52_APELLICE765"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/LBL/LBL_MMPPW_ACONYUGUE_37431"
+									},
+									"labelId": "LBL_MMPPW_ACONYUGUE_37431",
+									"moduleId": "MMPPW"
+								},
+								"maxRecords": null,
+								"name": "apellidoConyugue",
+								"options": 0,
+								"order": 8,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXQBY_826250",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT64_NOMBREGU765"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/LBL/LBL_MMPPW_NCONYUGUE_73182"
+									},
+									"labelId": "LBL_MMPPW_NCONYUGUE_73182",
+									"moduleId": "MMPPW"
+								},
+								"maxRecords": null,
+								"name": "nombreConyugue",
+								"options": 0,
+								"order": 7,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXQEY_656250",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
 									"$ref": "../../../../MMPPW/entities/EN_PERSONAII_765.json#/attributes/AT82_NOMBREWP765"
 								},
 								"attributeValidations": [
@@ -278,6 +473,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/LBL/LBL_MMPPW_NOMBRELTG_33788"
+									},
+									"labelId": "LBL_MMPPW_NOMBRELTG_33788",
+									"moduleId": "MMPPW"
+								},
 								"maxRecords": null,
 								"name": "nombre",
 								"options": 0,

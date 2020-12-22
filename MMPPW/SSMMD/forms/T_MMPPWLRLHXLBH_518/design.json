@@ -358,6 +358,22 @@
 											"description": "Letters and Numbers, only Numbers, custom list, custom function, lock",
 											"visualValidationId": "InputRestriction"
 										}
+									},
+									{
+										"compareOperator": -1,
+										"id": "VV_TELEFONOUBNCIMH_89827660",
+										"regularExpression": "^[0-9]{0,10}$",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/MSG/MSG_MMPPW_INGRESAOF_80253"
+											},
+											"labelId": "MSG_MMPPW_INGRESAOF_80253",
+											"moduleId": "MMPPW"
+										},
+										"visualValidationType": {
+											"description": "Regula Expression Validation",
+											"visualValidationId": "RegularExpression"
+										}
 									}
 								],
 								"colSpan": 1,
