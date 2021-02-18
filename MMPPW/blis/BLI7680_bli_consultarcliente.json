@@ -41,7 +41,7 @@
 			"isReturn": true,
 			"isSingleResult": false,
 			"numberQuery": 1,
-			"queryName": "SELECT \"id\"=cl_id,\r\n              \"nombre\"=cl_nombre,\r\n              \"apellido\"=cl_apellido,\r\n              \"telefono\"=cl_telefono,\r\n              \"nacionalidad\"=cl_nacionalidad\r\n              FROM"
+			"queryName": "SELECT \"id\"=cl_id,\r\n              \"nombre\"=cl_nombre,\r\n              \"apellido\"=cl_apellido,\r\n              \"telefono\"=cl_telefono,\r\n              \"nacionalidad\"=cl_nacionalidad,\r\n              \"cedula\"=cl_cedula\r\n              FROM"
 		}
 	],
 	"resultSets": [
@@ -86,6 +86,14 @@
 					"format": "",
 					"name": "nacionalidad",
 					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT68_CEDULAFG648",
+					"entityId": "EN_CLIENTEFM_648",
+					"format": "",
+					"name": "cedula",
+					"position": 6,
 					"type": "ATTRIBUTE"
 				}
 			],

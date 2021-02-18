@@ -7,6 +7,8 @@
 			"LBL_MMPPW_APELLIDOO_92317": "Apellido",
 			"LBL_MMPPW_CDULAYTRC_39387": "C\u00e9dula",
 			"LBL_MMPPW_ESTADOCII_86328": "Estado Civil",
+			"LBL_MMPPW_ESTADOHRP_18406": "Estado",
+			"LBL_MMPPW_FILTROTPG_54212": "Filtro",
 			"LBL_MMPPW_GUARDARUC_40328": "Guardar",
 			"LBL_MMPPW_NACIONALA_73495": "Nacionalidad",
 			"LBL_MMPPW_NCONYUGUE_73182": "N.Conyugue",
@@ -15,7 +17,8 @@
 			"LBL_MMPPW_REGISTRAE_39472": "Registrar persona",
 			"LBL_MMPPW_REGISTRNC_78913": "Registrar Cliente",
 			"LBL_MMPPW_SEXOWHEYB_52012": "Sexo",
-			"LBL_MMPPW_TELFONOJG_43361": "Tel\u00e9fono"
+			"LBL_MMPPW_TELFONOJG_43361": "Tel\u00e9fono",
+			"LBL_MMPPW_TIPOREYBT_96822": "Tipo"
 		},
 		"MSG": {
 			"MSG_MMPPW_INGRESAOF_80253": "Ingresar un telefono v\u00e1lido"

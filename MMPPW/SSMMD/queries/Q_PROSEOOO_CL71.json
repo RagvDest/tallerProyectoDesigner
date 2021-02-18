@@ -1,17 +1,11 @@
 {
 	"customEvents": [
 		{
-			"customEventId": "CEQY_130_Q_CLIEENEN_HW23_951",
+			"customEventId": "CEQY_130_Q_PROSEOOO_CL71_527",
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
 			"enabled": "T",
 			"eventActions": [
-				{
-					"actionArgs": [
-					],
-					"actionId": "BLI7680_bli_consultarcliente",
-					"actionType": "BLI"
-				},
 				{
 					"actionArgs": [
 					],
@@ -32,46 +26,27 @@
 	"customizationLayerDescription": "ECU",
 	"hasEvents": true,
 	"id": {
-		"queryId": "Q_CLIEENEN_HW23",
+		"queryId": "Q_PROSEOOO_CL71",
 		"version": "1.0.0"
 	},
 	"isAutomatic": false,
 	"isImported": false,
-	"mainEntityId": "EN_CLIENTEFM_648",
+	"mainEntityId": "EN_PROSPECTO_459",
 	"mainEntityModule": "MMPPW",
 	"mainEntityName": {
-		"$ref": "../../../MMPPW/relations/componentKeys.json#/Entities/EN_CLIENTEFM_648/name"
+		"$ref": "../../../MMPPW/relations/componentKeys.json#/Entities/EN_PROSPECTO_459/name"
 	},
 	"mainEntityVersion": "1.0.0",
 	"name": {
-		"$ref": "../../../MMPPW/relations/componentKeys.json#/SSMMD/Queries/Q_CLIEENEN_HW23/name"
+		"$ref": "../../../MMPPW/relations/componentKeys.json#/SSMMD/Queries/Q_PROSEOOO_CL71/name"
 	},
 	"queryMembers": [
 		{
-			"alias": "nombre",
+			"alias": "idProspecto",
 			"attribute": {
-				"$ref": "../../../MMPPW/entities/EN_CLIENTEFM_648.json#/attributes/AT88_NOMBRESK648"
+				"$ref": "../../../MMPPW/entities/EN_PROSPECTO_459.json#/attributes/AT95_IDPROSCT459"
 			},
-			"customizationLayer": "",
-			"customizationLayerDescription": "",
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 3,
-			"orderBy": null,
-			"orderByDirection": null,
-			"queryMemberId": "QM_CLIEE23N3H700_05",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "idCliente",
-			"attribute": {
-				"$ref": "../../../MMPPW/entities/EN_CLIENTEFM_648.json#/attributes/AT85_IDCLIETE648"
-			},
+			"attributeQuery": "idProspecto",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -81,77 +56,18 @@
 			"order": 1,
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_CLIEEE3EH2448_04",
+			"queryMemberId": "QM_PROSE17OCC584_01",
 			"select": true,
 			"selectStr": "T",
 			"where": false,
 			"whereStr": "F"
 		},
 		{
-			"alias": "nacionalidad",
+			"alias": "nombre",
 			"attribute": {
-				"$ref": "../../../MMPPW/entities/EN_CLIENTEFM_648.json#/attributes/AT61_NACIONAI648"
+				"$ref": "../../../MMPPW/entities/EN_PROSPECTO_459.json#/attributes/AT60_NOMBREDC459"
 			},
-			"customizationLayer": "",
-			"customizationLayerDescription": "",
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 6,
-			"orderBy": null,
-			"orderByDirection": null,
-			"queryMemberId": "QM_CLIEEENNN2377_06",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "apellido",
-			"attribute": {
-				"$ref": "../../../MMPPW/entities/EN_CLIENTEFM_648.json#/attributes/AT16_APELLIDD648"
-			},
-			"customizationLayer": "",
-			"customizationLayerDescription": "",
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 4,
-			"orderBy": null,
-			"orderByDirection": null,
-			"queryMemberId": "QM_CLIEEH323N735_01",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "telefono",
-			"attribute": {
-				"$ref": "../../../MMPPW/entities/EN_CLIENTEFM_648.json#/attributes/AT65_TELEFONO648"
-			},
-			"customizationLayer": "",
-			"customizationLayerDescription": "",
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 5,
-			"orderBy": null,
-			"orderByDirection": null,
-			"queryMemberId": "QM_CLIEEHHWNE398_02",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "cedula",
-			"attribute": {
-				"$ref": "../../../MMPPW/entities/EN_CLIENTEFM_648.json#/attributes/AT68_CEDULAFG648"
-			},
+			"attributeQuery": "nombre",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -161,7 +77,112 @@
 			"order": 2,
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_CLIEENENWN957_03",
+			"queryMemberId": "QM_PROSECC777440_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "estado",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PROSPECTO_459.json#/attributes/AT65_ESTADOFC459"
+			},
+			"attributeQuery": "estado",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSEO7O7O551_05",
+			"select": true,
+			"selectStr": "T",
+			"where": true,
+			"whereStr": "T"
+		},
+		{
+			"alias": "fecha",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PROSPECTO_459.json#/attributes/AT54_FECHAOCA459"
+			},
+			"attributeQuery": "fecha",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSEO7OOC605_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PROSPECTO_459.json#/attributes/AT18_APELLIOO459"
+			},
+			"attributeQuery": "apellido",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSEOLOC7540_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PROSPECTO_459.json#/attributes/AT46_TELEFONO459"
+			},
+			"attributeQuery": "telefono",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSEOOL1O557_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "tipo",
+			"attribute": {
+				"$ref": "../../../MMPPW/entities/EN_PROSPECTO_459.json#/attributes/AT46_TIPOTGEV459"
+			},
+			"attributeQuery": "tipo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 7,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSEOOOLL710_07",
 			"select": true,
 			"selectStr": "T",
 			"where": false,

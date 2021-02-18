@@ -68,6 +68,71 @@
 				"userControlId": "Button"
 			},
 			"validationGroup": null
+		},
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TMMPPWLR_PB1_635",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI4488_bli_actualizarcliente",
+							"actionType": "BLI"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMPPWLR_PB1"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMPPW/assets/languages/MMPPW.json#/MMPPW/LBL/LBL_MMPPW_ACTUALIRZ_73784"
+				},
+				"labelId": "LBL_MMPPW_ACTUALIRZ_73784",
+				"moduleId": "MMPPW"
+			},
+			"layoutType": "Command",
+			"name": "Command2",
+			"options": 0,
+			"order": 2,
+			"showInMode": 4095,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
 		}
 	],
 	"customEvents": [
@@ -99,6 +164,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_008T_MMPPWLRLHXLBH_518_922",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 1,
+						"description": "Se ejecuta antes de renderizar un ViewContainer, permite realizar personalizaciones visuales",
+						"eventId": 8,
+						"name": "Render"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",

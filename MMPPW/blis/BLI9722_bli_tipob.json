@@ -12,7 +12,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "C"
+			"value": "L"
 		},
 		{
 			"attributeId": "",
@@ -24,92 +24,95 @@
 			"name": "@t_trn",
 			"type": "CONSTANT",
 			"value": "2515"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_estado",
+			"type": "CUSTOM",
+			"value": "estado"
 		}
 	],
-	"name": "BLI_ConsultarPersona",
+	"name": "BLI_tipoB",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI3652_bli_consultarpersona",
-	"patternName": "BLI_ConsultarPersona",
+	"patternId": "BLI9722_bli_tipob",
+	"patternName": "BLI_tipoB",
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "7143b769-1701-455b-8214-2b4def32ac25",
+			"_idQuery": "78ded1a7-7e6e-4ef3-af8e-b3085676464b",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
-			"numberQuery": 1,
-			"queryName": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono,\r\n              \"sexo\"=pe_sexo,\r\n              \"estado civil\"=pe_estado_civil,\r\n              \"nombre conyugue\"=pe_nombre_conyugue,\r\n              \"apellido conyugue\"=pe_apellido_conyugue\r\n              FROM"
+			"numberQuery": 3,
+			"queryName": "SELECT"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "7143b769-1701-455b-8214-2b4def32ac25",
+			"_idQuery": "78ded1a7-7e6e-4ef3-af8e-b3085676464b",
 			"columns": [
 				{
-					"attributeId": "AT79_IDPERSNA765",
-					"entityId": "EN_PERSONAII_765",
+					"attributeId": "AT95_IDPROSCT459",
+					"entityId": "EN_PROSPECTO_459",
 					"format": "",
 					"name": "id",
 					"position": 1,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT82_NOMBREWP765",
-					"entityId": "EN_PERSONAII_765",
+					"attributeId": "AT60_NOMBREDC459",
+					"entityId": "EN_PROSPECTO_459",
 					"format": "",
 					"name": "nombre",
 					"position": 2,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT22_APELLIDO765",
-					"entityId": "EN_PERSONAII_765",
+					"attributeId": "AT18_APELLIOO459",
+					"entityId": "EN_PROSPECTO_459",
 					"format": "",
 					"name": "apellido",
 					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT52_TELEFONO765",
-					"entityId": "EN_PERSONAII_765",
+					"attributeId": "AT46_TELEFONO459",
+					"entityId": "EN_PROSPECTO_459",
 					"format": "",
 					"name": "telefono",
 					"position": 4,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT89_SEXOFWLB765",
-					"entityId": "EN_PERSONAII_765",
+					"attributeId": "AT65_ESTADOFC459",
+					"entityId": "EN_PROSPECTO_459",
 					"format": "",
-					"name": "sexo",
+					"name": "estado",
 					"position": 5,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT28_ESTADOII765",
-					"entityId": "EN_PERSONAII_765",
+					"attributeId": "AT46_TIPOTGEV459",
+					"entityId": "EN_PROSPECTO_459",
 					"format": "",
-					"name": "estado civil",
+					"name": "Tipo",
 					"position": 6,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT64_NOMBREGU765",
-					"entityId": "EN_PERSONAII_765",
+					"attributeId": "AT54_FECHAOCA459",
+					"entityId": "EN_PROSPECTO_459",
 					"format": "",
-					"name": "nombre conyugue",
+					"name": "fechaI",
 					"position": 7,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT52_APELLICE765",
-					"entityId": "EN_PERSONAII_765",
-					"format": "",
-					"name": "apellido conyugue",
-					"position": 8,
 					"type": "ATTRIBUTE"
 				}
 			],
@@ -119,12 +122,12 @@
 	],
 	"returnEntity": [
 		{
-			"entityId": "EN_PERSONAII_765",
+			"entityId": "EN_PROSPECTO_459",
 			"module": {
 				"moduleId": "MMPPW",
 				"moduleName": "Main"
 			},
-			"name": "Persona"
+			"name": "Prospecto"
 		}
 	],
 	"serverName": "CENTRAL",

@@ -12,5 +12,12 @@
 				"$ref": "../SSMMD/queries/Q_PERSOONN_SC54.json#"
 			}
 		}
+	},
+	"EN_PROSPECTO_459": {
+		"queries": {
+			"Q_PROSEOOO_CL71": {
+				"$ref": "../SSMMD/queries/Q_PROSEOOO_CL71.json#"
+			}
+		}
 	}
 }

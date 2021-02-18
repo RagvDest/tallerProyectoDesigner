@@ -78,9 +78,20 @@
 			"value": ""
 		},
 		{
+			"attributeId": "AT79_IDPERSNA765",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_PERSONAII_765",
+			"format": "",
+			"name": "@i_id",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
 			"attributeId": "AT28_ESTADOII765",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
+			"bddType": "char",
+			"dataType": "CHAR",
 			"direction": "in",
 			"entityId": "EN_PERSONAII_765",
 			"format": "",

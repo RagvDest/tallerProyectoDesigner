@@ -109,10 +109,11 @@
 					"nombre",
 					"apellido",
 					"telefono",
-					"nacionalidad"
+					"nacionalidad",
+					"cedula"
 				],
 				"editMode": false,
-				"queryText": "SELECT \"id\"=cl_id,\r\n              \"nombre\"=cl_nombre,\r\n              \"apellido\"=cl_apellido,\r\n              \"telefono\"=cl_telefono,\r\n              \"nacionalidad\"=cl_nacionalidad\r\n              FROM"
+				"queryText": "SELECT \"id\"=cl_id,\r\n              \"nombre\"=cl_nombre,\r\n              \"apellido\"=cl_apellido,\r\n              \"telefono\"=cl_telefono,\r\n              \"nacionalidad\"=cl_nacionalidad,\r\n              \"cedula\"=cl_cedula\r\n              FROM"
 			}
 		],
 		"variables": [

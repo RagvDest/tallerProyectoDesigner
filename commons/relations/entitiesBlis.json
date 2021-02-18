@@ -3,6 +3,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECTO_459",
+						"moduleId": "MMPPW",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI1462_bli_tipoa",
+			"nameBli": "BLI_tipoA"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_PERSONAII_765",
 						"moduleId": "MMPPW",
@@ -55,6 +72,23 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_CLIENTEFM_648",
+						"moduleId": "MMPPW",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI4488_bli_actualizarcliente",
+			"nameBli": "BLI_actualizarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_PERSONAII_765",
 						"moduleId": "MMPPW",
 						"related": false
@@ -84,6 +118,23 @@
 			},
 			"idBli": "BLI7680_bli_consultarcliente",
 			"nameBli": "BLI_consultarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECTO_459",
+						"moduleId": "MMPPW",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI9722_bli_tipob",
+			"nameBli": "BLI_tipoB"
 		}
 	]
 }

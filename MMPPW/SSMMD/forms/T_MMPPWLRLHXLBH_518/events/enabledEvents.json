@@ -12,5 +12,33 @@
 		],
 		"entityName": "",
 		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "CM_TMMPPWLR_PB1",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_INSERTARNC_601518",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

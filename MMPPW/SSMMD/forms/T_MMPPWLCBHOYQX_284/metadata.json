@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_FILTROBRA_791",
+			"isContextEntity": null,
+			"moduleId": "MMPPW",
+			"related": false
+		},
+		{
+			"entityId": "EN_PROSPECTO_459",
+			"isContextEntity": null,
+			"moduleId": "MMPPW",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "MMPPW",
+			"queryId": "Q_PROSEOOO_CL71",
+			"related": false,
+			"subModuleId": "SSMMD"
+		}
+	]
+}

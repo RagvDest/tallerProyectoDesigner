@@ -5,43 +5,51 @@
 		"forms": {
 			"MMPPW": [
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMPPW",
-					"moduleName": "Main",
 					"name": "FormPersonaConsulta",
 					"subModuleId": "SSMMD",
-					"subModuleName": "Main",
 					"taskId": "T_MMPPWCJIQQLRD_356",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMPPW",
-					"moduleName": "Main",
 					"name": "FormClienteConsulta",
 					"subModuleId": "SSMMD",
-					"subModuleName": "Main",
 					"taskId": "T_MMPPWHYPMBRLW_165",
-					"type": "Simple form"
-				},
-				{
-					"generated": 2,
-					"moduleId": "MMPPW",
-					"moduleName": "Main",
-					"name": "Insertar Cliente",
-					"subModuleId": "SSMMD",
-					"subModuleName": "Main",
-					"taskId": "T_MMPPWLRLHXLBH_518",
 					"type": "Simple form"
 				},
 				{
 					"generated": 0,
 					"moduleId": "MMPPW",
-					"moduleName": "Main",
+					"name": "FormProspecto",
+					"subModuleId": "SSMMD",
+					"taskId": "T_MMPPWLCBHOYQX_284",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMPPW",
+					"name": "Insertar Cliente",
+					"subModuleId": "SSMMD",
+					"taskId": "T_MMPPWLRLHXLBH_518",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMPPW",
 					"name": "Registro Persona",
 					"subModuleId": "SSMMD",
-					"subModuleName": "Main",
 					"taskId": "T_MMPPWMXQPFYBM_792",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "MMPPW",
+					"name": "FormFiltro",
+					"subModuleId": "SSMMD",
+					"taskId": "T_MMPPWONNIXHDU_825",
 					"type": "Simple form"
 				}
 			]
